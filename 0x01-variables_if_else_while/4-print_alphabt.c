@@ -12,8 +12,8 @@ int main(void)
 	{
 		if (l == 'q' || l == 'e')
 		{
-			continue;
 			l += 1;
+			continue;
 		} else
 		{
 			putchar(l);
@@ -21,5 +21,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
